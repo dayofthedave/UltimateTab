@@ -23,8 +23,8 @@ export default function TabPage(): JSX.Element {
   } = useAppStateContext()
 
   const title = selectedTabContent
-    ? `${selectedTabContent.name} by ${selectedTabContent.artist} - Ultimate Tab`
-    : 'Tab - Ultimate Tab'
+    ? `${selectedTabContent.name} by ${selectedTabContent.artist} - Jamspace Tabs`
+    : 'Tab - Jamspace Tabs'
 
   useEffect(() => {
     if (slug) {

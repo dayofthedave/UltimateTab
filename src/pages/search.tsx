@@ -64,7 +64,7 @@ export default function Search(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Search - Ultimate Tab</title>
+        <title>Search - Jamspace Tabs</title>
       </Head>
       <Fade
         style={{ display: 'flex', flexGrow: '1', flexDirection: 'column' }}

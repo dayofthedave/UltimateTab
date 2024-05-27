@@ -18,7 +18,7 @@ export default function Nav({
   refBackdrop: MutableRefObject<HTMLDivElement>
 }): JSX.Element {
   const { colorMode, toggleColorMode } = useColorMode()
-  const titleHeader = useBreakpointValue({ base: 'Ut', md: 'Ultimate tab' })
+  const titleHeader = useBreakpointValue({ base: 'Jt', md: 'Jamspace tabs' })
   return (
     <>
       <Box px={4}>
