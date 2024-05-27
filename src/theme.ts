@@ -1,12 +1,17 @@
 import { extendTheme, StyleFunctionProps } from '@chakra-ui/react'
 
 export const extendedTheme = extendTheme({
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
   colors: {
     fadebp: 'linear-gradient(to left, #7928CA, #1a94da) padding-box',
   },
   styles: {
     global: (props: StyleFunctionProps) => ({
+      '.tabContent-chord': {
+        background: '#eee',
+        fontWeight: 'bold',
+        padding: '2px'
+      },
       'span.text-chord': {
         cursor: 'pointer',
         color: 'twitter.600 !important',
